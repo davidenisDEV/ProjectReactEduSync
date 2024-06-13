@@ -1,0 +1,46 @@
+.course-block {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.course-img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.text {
+    margin: 0;
+}
+
+.course-name {
+    font-weight: 600;
+}
+
+.course-author {
+    color: #ffffffb9;
+}
+
+.course-rating {
+    display: flex;
+    align-items: baseline;
+    gap: .5rem;
+}
+
+.icon-background {
+    padding: .25rem .5rem;
+    border-radius: 4px;
+}
+
+.icons {
+    display: flex;
+    gap: .5rem;
+}
+
+.red {
+    background: red;
+}
+
+.blue {
+    background:  blue;
+}
